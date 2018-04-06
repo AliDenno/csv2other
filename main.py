@@ -5,6 +5,7 @@ from bin.object_to_json import write_as_json
 from bin.object_to_xml import write_as_xml
 
 def validate_record(a):
+    """ Validates a record according to its name, rating and url """
     if(a != []):
         if(bool(validate_name(a[0])) and bool(validate_rating(a[2])) and bool(validate_url(a[5]))):
             return Hotel(a[0],a[1],a[2],a[3],a[4],a[5]) 
