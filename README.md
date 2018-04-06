@@ -1,1 +1,1 @@
-> A small tool that reads csv data, validate it and store it in other formats
+> A small tool that reads csv data, validates it and stores it in other formats
