@@ -1,0 +1,20 @@
+csv2other
++-- bin
+¦   +-- __init__.py             # make it a package
+¦   +-- hotel.py
+¦   +-- object_to_json.py
+¦   +-- object_to_xml.py
+¦   +-- validate_record.py
++-- tests
+¦   +-- __init__.py             # also make tests a package
+¦   +-- validate_record_test.py # run the unit tests
++-- data
+¦   +-- hotels.csv	        # initial file 
+¦   +-- hotels.xml	        # will be created 
+¦   +-- hotels.json	        # will be created 
++-- main.py		        # Script to run 		
++-- __init__.py 
+
+
+
+
