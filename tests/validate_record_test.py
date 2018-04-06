@@ -1,4 +1,5 @@
 import unittest
+import bin
 from bin.validate_record import validate_rating, validate_name, validate_url
 
 class TestRecordValidation(unittest.TestCase):
